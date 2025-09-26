@@ -23,7 +23,7 @@ Built with psutil, packaged with setuptools, and ready to run as a CLI tool (sna
 
     - n → number of snapshots to capture (default: 20)
 
-    -f → output file name (default: snapshot.json)
+    - f → output file name (default: snapshot.json)
 
 - Distributed as a Python package with a console entry point
 
