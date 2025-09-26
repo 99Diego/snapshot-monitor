@@ -39,7 +39,7 @@ class SystemMonitor:
         mem = psutil.virtual_memory()
         mem_info = {
             "total": mem.total // 1024,
-            "free": mem.available // 1024,
+            "free": mem.free // 1024,
             "used": mem.used // 1024
         }
 
