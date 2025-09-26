@@ -73,8 +73,7 @@ class SystemMonitor:
             snapshot = self.get_snapshot()
 
             # Imprimir en consola
-            os.system('clear')
-            print(json.dumps(snapshot, indent=4))
+            print(snapshot, end="\r")
 
             # Guardar en archivo (una línea por snapshot)
             with open(self.output_file, "a") as f:
