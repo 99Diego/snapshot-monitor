@@ -1,0 +1,2 @@
+{"Tasks": {"total": 260, "running": 1, "sleeping": 259, "stopped": 0, "zombie": 0}, "%CPU": {"user": 1.0, "system": 0.0, "idle": 12.0}, "KiB Mem": {"total": 24326504, "free": 17326192, "used": 7000312}, "KiB Swap": {"total": 8388604, "free": 8388604, "used": 0}, "Timestamp": 1758909923}
+{"Tasks": {"total": 260, "running": 1, "sleeping": 259, "stopped": 0, "zombie": 0}, "%CPU": {"user": 1.8, "system": 0.8, "idle": 97.3}, "KiB Mem": {"total": 24326504, "free": 17325492, "used": 7001012}, "KiB Swap": {"total": 8388604, "free": 8388604, "used": 0}, "Timestamp": 1758909924}
