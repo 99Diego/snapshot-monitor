@@ -1,7 +1,10 @@
-from .monitor import main, SystemMonitor
+from . import monitor
 
-# Alias para los tests
-snapshot = main  
+# Exponer la clase y la función
+SystemMonitor = monitor.SystemMonitor
+main = monitor.main
 
-__all__ = ["snapshot", "SystemMonitor", "main"]
+# Alias para que los tests funcionen
+# Ahora snapshot es el módulo, y snapshot.main existe
+snapshot = monitor
 
